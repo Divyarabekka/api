@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: rgb(75, 72, 73);
+    margin: 100px 170px;
+    align-content: flex-start;
+    justify-content: space-around;
+    height: 100%;
+    width: auto;
+    
+}
+.card
+{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card-header
+{
+   text-align: center; 
+   background-color: rgb(29, 21, 21);
+   color: white;
+}
+.card-body{
+    background-color: rgb(236, 163, 163);
+}
+.btn
+{
+    background-color: aliceblue;
+    color: black;
+}
